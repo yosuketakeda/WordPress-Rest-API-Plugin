@@ -10,5 +10,5 @@ This plugin stores user info and message in DB by using Rest API created manuall
 
 #Entry List Plugin
 
-This is a plugin to show a list of stored users. Can see the details by clicking line in list.
+This is a plugin to show a list of stored users. Can see the details by clicking line in list. Use the shortcode [entries-list] in page.
 This also use Rest API created manually.
