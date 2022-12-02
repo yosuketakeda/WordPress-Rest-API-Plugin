@@ -1,0 +1,75 @@
+#entries-list{
+    max-width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+#entries-list .list-categories, #entries-list .list-values{
+    display: flex;
+    justify-content: space-between;
+}
+#entries-list .list-cat, #entries-list .list-val{
+    padding: 15px;
+    width: 32%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#entries-list .list-val:hover{
+    cursor: pointer;
+    background: #d9ebfb;
+}
+#entries-list .list-cat{
+    background: #d7d7d7;
+    border: 1px solid #aaa;
+}
+#entries-list .list-val{
+    border: 1px solid #aaa;
+}
+#entries-list .pagination-btns{
+    padding: 20px 0;
+    float: right;
+}
+#entries-list .pagination-btns{
+    display: flex;
+}
+#entries-list .pagination-btns .page-nums{
+    padding: 0 10px;
+}
+#entries-list .pagination-btns a{
+    padding: 5px 8px; 
+    text-decoration: none;   
+    color: #333; 
+    margin: 0 1px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 12px;
+}
+#entries-list .pagination-btns a.go-firstpage, #entries-list .pagination-btns a.go-lastpage,
+#entries-list .pagination-btns a.prev-page, #entries-list .pagination-btns a.next-page{
+    border:1px solid #aaa;
+}
+#entries-list .pagination-btns a:hover{
+    background-color: #bbb;
+}
+#entries-list .pagination-btns a.active{
+    background-color: #bbb;
+    color: #fff;
+}
+#entries-list .selected-item table{
+    width: 100%;
+    font-size: 16px;
+    table-layout: fixed;
+}
+#entries-list table, #entries-list table td {
+    border:1px solid #555;
+    text-align: center;
+    word-break: break-word;
+}
+#entries-list table .item-name{
+    width: 30%;
+    font-weight: bold;
+}
+#entries-list table .item-value{
+    width: 70%;
+}
+

@@ -1,0 +1,49 @@
+#feedback-form{
+    max-width: 800px;
+    margin: auto;
+}
+#feedback-form .form-group{
+    display: flex;
+    padding: 15px 0;
+}
+#feedback-form .firstname-div, #feedback-form .lastname-div{
+    width: 50%;
+}
+#feedback-form .firstname-div{
+    padding-right: 10px;
+}
+#feedback-form .lastname-div{
+    padding-left: 10px;
+}
+#feedback-form .sub-div{
+    width: 100%;
+}
+#feedback-form input{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#feedback-form #message{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#feedback-form .submit-btn{
+    padding: 10px 40px;
+    background: #0b79d1;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold; 
+}
+#feedback-form .success-notification{
+    padding: 15px 0;
+    color: rgb(12, 87, 12);
+}
+#feedback-form .failed-notification{
+    padding: 15px 0;
+    color: rgb(160, 4, 4);
+}
